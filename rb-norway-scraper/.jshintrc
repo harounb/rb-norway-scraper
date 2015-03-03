@@ -1,0 +1,8 @@
+{
+    "eqeqeq": true,
+    "latedef": true,
+    "newcap": true,
+    "strict": true,
+    "undef": true,
+    "unused": true
+}

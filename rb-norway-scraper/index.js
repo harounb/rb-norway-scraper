@@ -1,1 +1,2 @@
-//module.exports = require('./lib/exampleModule');
+/*globals module, require*/
+module.exports = require('./lib/scraper');
