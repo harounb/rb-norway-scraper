@@ -4,8 +4,7 @@
     "description": "A new version of a scraper made to get Tekken frame data from rbnorway",
     "main": "index.js",
     "dependencies": {
-        "cheerio": "~0.18.0",
-        "request": "~2.53.0"
+        "cheerio": "~0.18.0"
     },
     "devDependencies": {
         "jasmine": "~2.2.1"
