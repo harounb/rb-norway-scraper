@@ -1,8 +1,13 @@
 {
-    "scrapes" [
-        "characterName" : {
-            urls: ["http://example.com", "https://example2.com"],
-            path: "/path/to/json.json"
+    "scrapes": [
+        {
+            "character": "character-name",
+            "game": "game-name",
+            "urls": [
+                "http://example.com/",
+                "https://example2.com/"
+            ],
+            "path": "/path/to/json.json"
         }
     ]
 }
