@@ -1,30 +1,32 @@
 {
-    "name": "rb-norway-scraper",
-    "version": "0.0.0",
-    "description": "A new version of a scraper made to get Tekken frame data from rbnorway",
-    "main": "index.js",
-    "dependencies": {
-        "cheerio": "~0.18.0"
-    },
-    "devDependencies": {
-        "jasmine": "~2.2.1"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/harounb/rb-norway-scraper"
-    },
-    "keywords": [
-        "scraper",
-        "tekken",
-        "rbnorway"
-    ],
-    "author": "harounb",
-    "license": "GPLv3",
-    "bugs": {
-        "url": "https://github.com/harounb/rb-norway-scraper/issues"
-    },
-    "homepage": "https://github.com/harounb/rb-norway-scraper"
+  "name": "rb-norway-scraper",
+  "version": "0.0.0",
+  "description": "A new version of a scraper made to get Tekken frame data from rbnorway",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "~0.19.0",
+    "request-promise": "~0.4.1"
+  },
+  "devDependencies": {
+    "jasmine": "~2.2.1",
+    "proxyquire" : "~1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harounb/rb-norway-scraper"
+  },
+  "keywords": [
+    "scraper",
+    "tekken",
+    "rbnorway"
+  ],
+  "author": "harounb",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/harounb/rb-norway-scraper/issues"
+  },
+  "homepage": "https://github.com/harounb/rb-norway-scraper"
 }
