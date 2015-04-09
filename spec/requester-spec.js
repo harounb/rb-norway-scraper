@@ -41,7 +41,7 @@
             });
 
             it("will return an object with a then function", function() {
-                expect(requester.init(["hello"]).then).toBeTruthy();
+                expect(requester.init(["hello"])[0].then).toBeTruthy();
             });
 
         });
