@@ -1,6 +1,12 @@
-/*globals module, require, console*/
-module.exports = function rBNorwayScraper() {
+/*globals module, require*/
+module.exports = (function rBNorwayScraper() {
     'use strict';
-    var config = require("./config");
-    console.log(config);
-}();
+
+    //Dependencies
+    var config = require("./config"),
+        requester = require("./lib/requester").init(config);
+
+    requester.performRequest();
+
+    return requester;
+});

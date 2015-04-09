@@ -23,25 +23,26 @@
             it("will throw an error if the object doesn't contain a urls array", function() {
                 expect(function() {
                     requester.init();
-                }).toThrowError("Need urls parameter");
+                }).toThrowError("config not loaded");
             });
 
             it("will throw an error if the parameter is not an array", function() {
                 expect(function() {
                     requester.init("hello");
-                }).toThrowError("Urls parameter needs to be an array");
+                }).toThrowError("config not loaded");
                 expect(function() {
                     requester.init(1);
-                }).toThrowError("Urls parameter needs to be an array");
+                }).toThrowError("config not loaded");
                 expect(function() {
                     requester.init({
                         foo: 1
                     });
-                }).toThrowError("Urls parameter needs to be an array");
+                }).not.toThrowError("config not loaded");
             });
 
-            it("will return an object with a then function", function() {
-                expect(requester.init(["hello"])[0].then).toBeTruthy();
+            it("will contain a performRequest function", function() {
+                expect(requester.performRequest).toBeTruthy();
+            
             });
 
         });

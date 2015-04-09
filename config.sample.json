@@ -7,7 +7,7 @@
                 "http://example.com/",
                 "https://example2.com/"
             ],
-            "path": "/path/to/json.json"
+            "path": "./path/to/json.json"
         }
     ]
 }
