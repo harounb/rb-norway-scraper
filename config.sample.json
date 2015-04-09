@@ -1,0 +1,8 @@
+{
+    "scrapes" [
+        "characterName" : {
+            urls: ["http://example.com", "https://example2.com"],
+            path: "/path/to/json.json"
+        }
+    ]
+}
