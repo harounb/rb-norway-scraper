@@ -1,13 +1,21 @@
 {
-    "scrapes": [
-        {
-            "character": "character-name",
-            "game": "game-name",
-            "urls": [
-                "http://example.com/",
-                "https://example2.com/"
-            ],
-            "path": "./path/to/json.json"
-        }
-    ]
+  "games":[
+    {
+      "id": "ttt2",
+      "characters": [{
+        "id": "hwoarang",
+        "name": "Hwoarang",
+        "sources": [
+          {
+            "type": "basic",
+            "url": null
+          },
+          {
+            "type": "regular",
+            "url": null
+          }
+        ]
+      }]
+    }
+  ]
 }

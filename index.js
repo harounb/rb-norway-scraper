@@ -4,9 +4,8 @@ module.exports = (function rBNorwayScraper() {
 
     //Dependencies
     var config = require("./config"),
-        requester = require("./lib/requester").init(config);
+        scraper = require("./lib/scraper");
 
-    requester.performRequest();
-
-    return requester;
+    scraper.scrape(config);
+    
 });
