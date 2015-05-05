@@ -1,21 +1,13 @@
 {
-  "games":[
-    {
-      "id": "ttt2",
-      "characters": [{
-        "id": "hwoarang",
-        "name": "Hwoarang",
-        "sources": [
-          {
-            "type": "basic",
-            "url": null
-          },
-          {
-            "type": "regular",
-            "url": null
-          }
-        ]
-      }]
-    }
-  ]
+    "games": [{
+        "id": "ttt2",
+        "characters": [{
+            "id": "hwoarang",
+            "name": "Hwoarang",
+            "sources": [
+                null
+            ]
+        }]
+    }],
+    "path": null
 }

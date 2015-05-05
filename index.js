@@ -7,5 +7,5 @@ module.exports = (function rBNorwayScraper() {
         scraper = require("./lib/scraper");
 
     scraper.scrape(config);
-    
-});
+
+}());
