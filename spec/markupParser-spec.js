@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    describe("requiring markupParser", function ()  {
+    describe("requiring markupParser", function () {
         var markupParser = require("../lib/markupParser");
         it("returns an object", function () {
             expect(markupParser).toEqual(jasmine.any(Object));
@@ -20,15 +20,14 @@
             it("will return a data object containing move data of valid format", function () {
 
                 expect(markupParser.parse(html).moves).toEqual([{
-                        notation: '1',
-                        hit_level: 'h',
-                        damage: '9',
-                        speed: '10',
-                        on_block: '+1',
-                        on_hit: '+8',
-                        on_ch: '+8'
-                    }]
-                );
+                    notation: '1',
+                    hit_level: 'h',
+                    damage: '9',
+                    speed: '10',
+                    on_block: '+1',
+                    on_hit: '+8',
+                    on_ch: '+8'
+                }]);
             });
         });
 
