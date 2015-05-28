@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*globals module, require, process, console*/
 module.exports = (function rBNorwayScraper() {
     'use strict';
