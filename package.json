@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "description": "A new version of a scraper made to get Tekken frame data from rbnorway",
     "main": "./lib/scraper.js",
+    "bin": "./bin/rb-norway-scraper",
     "dependencies": {
         "cheerio": "~0.19.0",
         "jsonfile": "^2.0.0",
