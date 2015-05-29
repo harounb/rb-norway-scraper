@@ -1,6 +1,6 @@
 {
   "name": "rb-norway-scraper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A new version of a scraper made to get Tekken frame data from rbnorway",
   "main": "./lib/scraper.js",
   "bin": "./bin/rb-norway-scraper",
