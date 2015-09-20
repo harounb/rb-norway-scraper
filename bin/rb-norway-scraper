@@ -3,7 +3,6 @@
 /*globals module, require, process, console*/
 module.exports = (function rBNorwayScraper() {
     'use strict';
-
     //Dependencies
     var scraper = require("../lib/scraper"),
         jf = require('jsonfile'),
