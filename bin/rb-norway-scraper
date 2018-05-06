@@ -2,20 +2,6 @@
 
 "use strict";
 
-const scraper = require("../lib/scraper");
-const jf = require("jsonfile");
+const scrape = require("../lib/scrape");
 
-let file;
-
-if (process.argv[2]) {
-  console.log("Using config file");
-  [, , file] = process.argv;
-} else {
-  console.log(
-    "No argument provided. Attempting to load config from config.json"
-  );
-  file = "config.json";
-}
-jf.readFile(file, (err, obj) => {
-  scraper.scrape(obj);
-});
+scrape({});
