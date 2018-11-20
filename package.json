@@ -1,8 +1,7 @@
 {
   "name": "rb-norway-scraper",
   "version": "0.2.0",
-  "description":
-    "A new version of a scraper made to get Tekken frame data from rbnorway",
+  "description": "A new version of a scraper made to get Tekken frame data from rbnorway",
   "main": "./lib/scraper.js",
   "bin": "./bin/rb-norway-scraper",
   "dependencies": {
@@ -31,7 +30,11 @@
     "type": "git",
     "url": "https://github.com/harounb/rb-norway-scraper"
   },
-  "keywords": ["scraper", "tekken", "rbnorway"],
+  "keywords": [
+    "scraper",
+    "tekken",
+    "rbnorway"
+  ],
   "author": "harounb",
   "license": "GPLv3",
   "bugs": {
@@ -39,7 +42,9 @@
   },
   "homepage": "https://github.com/harounb/rb-norway-scraper",
   "eslintConfig": {
-    "extends": ["@harounb/eslint-config-node"],
+    "extends": [
+      "@harounb/eslint-config-node"
+    ],
     "env": {
       "jest": true,
       "node": true
