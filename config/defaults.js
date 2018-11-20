@@ -5,6 +5,8 @@ module.exports = {
   sources: [
     "http://rbnorway.org/t7-frame-data/akuma-t7-frames",
     "http://rbnorway.org/t7-frame-data/alisa-t7-frames",
+    "http://rbnorway.org/t7-frame-data/anna-t7-frames",
+    "http://rbnorway.org/t7-frame-data/lei-t7-frames",
     "http://rbnorway.org/t7-frame-data/asuka-t7-frames",
     "http://rbnorway.org/t7-frame-data/bob-t7-frames",
     "http://rbnorway.org/t7-frame-data/bryan-t7-frames",
