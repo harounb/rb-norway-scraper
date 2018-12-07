@@ -25,7 +25,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint \"**/*.js\"",
-    "scraper": "bin/rb-norway-scraper"
+    "scraper": "bin/rb-norway-scraper",
+    "scraper:ttt2": "bin/rb-norway-scraper ttt2"
   },
   "repository": {
     "type": "git",

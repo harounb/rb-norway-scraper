@@ -3,5 +3,12 @@
 "use strict";
 
 const scrape = require("../lib/scrape");
+const ttt2 = require("../config/ttt2");
 
-scrape({});
+const args = process.argv;
+
+if (args[2] === "ttt2") {
+  scrape(ttt2);
+} else {
+  scrape({});
+}
